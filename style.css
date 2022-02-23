@@ -1,0 +1,82 @@
+body {
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url(imagenes/noise.jpg);
+}
+
+#principal {
+    background: url(imagenes/head-fondo.png);
+    text-align: center;
+    height: 150px;
+    text-decoration: none;
+    font-size: 3em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-size: cover;
+}
+
+#principal a{
+    text-decoration: none;
+    color: rgba(232, 223, 240, 0.863);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+#listapeliculas {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    color: rgba(144, 50, 221, 0.938);
+}
+
+#principal .indicador {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5em;
+    color: rgba(224, 209, 236, 0.938);
+}
+
+#principal .redes {
+    text-decoration: none;
+    font-size: 0.5em;
+    color: rgba(224, 209, 236, 0.938);
+}
+
+.ficha-pelicula {
+    width: 400px;
+    height: 190px;
+    margin: 20px;
+    padding-top: 100px;
+    float: left;
+    position: relative;
+
+
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 5px rgba(29, 30, 31, 0.513);
+    background-size: cover;
+    font-size: 1.5em;
+}
+
+.titulopeli {
+    position: static;
+    width: 100%;
+    background: url(imagenes/head-fondo.png);
+    transition: all o.2s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.ficha-pelicula a:hover {
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
